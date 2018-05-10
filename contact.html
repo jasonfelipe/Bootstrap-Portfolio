@@ -4,11 +4,15 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-
+    <title>Jason Felipe's Portfolio</title>
 </head>
 <style>
     body {
         background: url("assets/images/sun-pattern.png");
+    }
+
+    .tealBackground {
+        background-color: #4aaaa5
     }
 </style>
 
@@ -32,14 +36,46 @@
         </div>
     </nav>
 
+    <div class="container p-3 mb-2 bg-white text-dark">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 style="margin-bottom:20px; color: #4aaaa5; border-bottom: 2px solid #cccccc; line-height:150%">Contact Me!</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                            <label for="exampleFormControlInput1">Email Address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Questions or Comments?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary tealBackground">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
     <div class="row">
         <div class="col-sm-12">
-            <footer class="fixed-bottom p-3 mb-2 text-center" style="color:#eee; background-color: #777777; border-top: 7px solid #4aaaa5">
+            <footer class="fixed-bottom p-3 text-center" style="color:#eee; background-color: #777777; border-top: 7px solid #4aaaa5">
                 Copyright ©2018
             </footer>
         </div>
     </div>
-    
+
 </body>
 
 </html>
