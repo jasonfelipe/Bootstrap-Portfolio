@@ -8,6 +8,8 @@
         crossorigin="anonymous">
 
 </head>
+
+<!--I have no idea how to put a background image in bootstrap other than this-->
 <style>
     body {
         background: url("assets/images/sun-pattern.png");
@@ -15,6 +17,7 @@
 </style>
 
 <body>
+    <!--Remember that the navbar isn't in a container-->
     <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #ffffff; margin:0 auto; padding-top:0; padding-bottom:0; margin-bottom:20px; border-bottom: 2px solid #cccccc">
         <span class="navbar-brand mb-0 h1" style="padding:10px; color:#ffffff; background-color: #4aaaa5">Jason Felipe</span>
         <div class="navbar-collapse justify-content-stretch">
@@ -37,12 +40,16 @@
     <div class="container p-3 mb-2 bg-white text-dark">
         <div class="row">
             <div class="col-sm-12">
-                <h2 style="color: #4aaaa5; border-bottom: 2px solid #cccccc; line-height:150%">
+            <h2 style="color: #4aaaa5; border-bottom: 2px solid #cccccc; line-height:150%">
                     Welcome To My World!
-                </h2>
-
-                <img src="assets/images/its-me.jpg" style="width:300px; height:200px; margin: 0 auto;" alt="Jason Felipe">
-
+            </h2>
+            </div>
+        </div>
+        <div class="row">       
+            <div class="col-md-6">
+                <img src="assets/images/its-me.jpg" class="img-fluid rounded mx-auto d-block" style="max-width:300px; max-height:200px;" alt="Jason Felipe">
+            </div>
+            <div class="col-md-6">
                 <p> Hey! Welcome to my small portfolio. Things get updated, so uh, yeah. I'm a Canadian American currently residing
                     in Gilbert, Arizona. I have graduated from ASU in 2014 and have a Bachaelors Degree in English Creative
                     Writing and a minor in Japanese. I love video games, stories, and relaxing!
@@ -59,7 +66,7 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <footer class="fixed-bottom p-3 mb-2 text-center" style="color:#eee; background-color: #777777; border-top: 7px solid #4aaaa5">
+                <footer class="fixed-bottom p-3 text-center" style="color:#eee; background-color: #777777; border-top: 7px solid #4aaaa5">
                     Copyright ©2018
                 </footer>
             </div>
